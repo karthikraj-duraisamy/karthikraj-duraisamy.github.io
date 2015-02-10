@@ -23,82 +23,82 @@
   <p>The below code is for LogUtils class, Which is a must having util file in every Android project.</p>
 
    <div class="code_text_div">
-    <p>import android.util.Log;
+    <p>import android.util.Log;</br></br>
 
-public class LogUtils {
-    private static final String LOG_PREFIX = "iosched_";
-    private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();
-    private static final int MAX_LOG_TAG_LENGTH = 23;
+    public class LogUtils {</br>
+    private static final String LOG_PREFIX = "iosched_";</br>
+    private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();</br>
+    private static final int MAX_LOG_TAG_LENGTH = 23;</br></br>
 
-    public static String makeLogTag(String str) {
-        if (str.length() > MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH) {
-            return LOG_PREFIX + str.substring(0, MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH - 1);
-        }
+    public static String makeLogTag(String str) {</br>
+    &nbsp;&nbsp;&nbsp;    if (str.length() > MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH) {</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return LOG_PREFIX + str.substring(0, MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH - 1);</br>
+    &nbsp;&nbsp;&nbsp;        }</br></br>
 
-        return LOG_PREFIX + str;
-    }
+    &nbsp;&nbsp;&nbsp;    return LOG_PREFIX + str;</br>
+    }</br></br>
 
-    /**
-     * Don't use this when obfuscating class names!
-     */
-    public static String makeLogTag(Class cls) {
-        return makeLogTag(cls.getSimpleName());
-    }
+    /**</br>
+     * Don't use this when obfuscating class names!</br>
+     */</br>
+    public static String makeLogTag(Class cls) {</br>
+        return makeLogTag(cls.getSimpleName());</br>
+    }</br></br>
 
-    public static void LOGD(final String tag, String message) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
-        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {
-            Log.d(tag, message);
-        }
-    }
+    public static void LOGD(final String tag, String message) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {</br>
+            Log.d(tag, message);</br>
+        }</br>
+    }</br></br>
 
-    public static void LOGD(final String tag, String message, Throwable cause) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
-        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {
-            Log.d(tag, message, cause);
-        }
-    }
+    public static void LOGD(final String tag, String message, Throwable cause) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {</br>
+            Log.d(tag, message, cause);</br>
+        }</br>
+    }</br></br>
 
-    public static void LOGV(final String tag, String message) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
-        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
-            Log.v(tag, message);
-        }
-    }
+    public static void LOGV(final String tag, String message) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {</br>
+            Log.v(tag, message);</br>
+        }</br>
+    }</br></br>
 
-    public static void LOGV(final String tag, String message, Throwable cause) {
-        //noinspection PointlessBooleanExpression,ConstantConditions
-        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
-            Log.v(tag, message, cause);
-        }
-    }
+    public static void LOGV(final String tag, String message, Throwable cause) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {</br>
+            Log.v(tag, message, cause);</br>
+        }</br>
+    }</br></br>
 
-    public static void LOGI(final String tag, String message) {
-        Log.i(tag, message);
-    }
+    public static void LOGI(final String tag, String message) {</br>
+        Log.i(tag, message);</br>
+    }</br></br>
 
-    public static void LOGI(final String tag, String message, Throwable cause) {
-        Log.i(tag, message, cause);
-    }
+    public static void LOGI(final String tag, String message, Throwable cause) {</br>
+        Log.i(tag, message, cause);</br>
+    }</br></br>
 
-    public static void LOGW(final String tag, String message) {
-        Log.w(tag, message);
-    }
+    public static void LOGW(final String tag, String message) {</br>
+        Log.w(tag, message);</br>
+    }</br></br>
 
-    public static void LOGW(final String tag, String message, Throwable cause) {
-        Log.w(tag, message, cause);
-    }
+    public static void LOGW(final String tag, String message, Throwable cause) {</br>
+        Log.w(tag, message, cause);</br>
+    }</br></br>
 
-    public static void LOGE(final String tag, String message) {
-        Log.e(tag, message);
-    }
+    public static void LOGE(final String tag, String message) {</br>
+        Log.e(tag, message);</br>
+    }</br></br>
 
-    public static void LOGE(final String tag, String message, Throwable cause) {
-        Log.e(tag, message, cause);
-    }
+    public static void LOGE(final String tag, String message, Throwable cause) {</br>
+        Log.e(tag, message, cause);</br>
+    }</br></br>
 
-    private LogUtils() {
-    }
+    private LogUtils() {</br>
+    }</br></br></br></br>
 }</p>
   </div>
 </div>
@@ -115,9 +115,9 @@ public class LogUtils {
   background-size: cover;
   display: block;
   border-radius: 10px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 99em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
@@ -131,9 +131,9 @@ color: white;
 }
 
 .content_text_div{
-  font-family: "Roboto",Roboto;
+font-family: "Roboto",Roboto;
 margin-top: 10px;
-margin-left: -5%;
+margin-left: 10%;
 font-size: 25px;
 color: white;
 }
