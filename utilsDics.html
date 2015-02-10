@@ -1,1 +1,159 @@
-ABC
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<link rel="shortcut icon" href="kartik_profile_pic.jpg">
+<title>utilsDics</title>
+
+</head>
+<body bgcolor = "#999933">
+<div class="image_div"></div>
+
+<div class="hero-unit">
+  <center><h1 class="title_text_div">Log statements made easy</h1></center>
+  <div class="content_text_div">
+  <!--Contents goes here -->    
+  <p>The below code is for LogUtils class, Which is a must having util file in every Android project.</p>
+
+   <div class="code_text_div">
+    <p>import android.util.Log;
+
+public class LogUtils {
+    private static final String LOG_PREFIX = "iosched_";
+    private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();
+    private static final int MAX_LOG_TAG_LENGTH = 23;
+
+    public static String makeLogTag(String str) {
+        if (str.length() > MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH) {
+            return LOG_PREFIX + str.substring(0, MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH - 1);
+        }
+
+        return LOG_PREFIX + str;
+    }
+
+    /**
+     * Don't use this when obfuscating class names!
+     */
+    public static String makeLogTag(Class cls) {
+        return makeLogTag(cls.getSimpleName());
+    }
+
+    public static void LOGD(final String tag, String message) {
+        //noinspection PointlessBooleanExpression,ConstantConditions
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {
+            Log.d(tag, message);
+        }
+    }
+
+    public static void LOGD(final String tag, String message, Throwable cause) {
+        //noinspection PointlessBooleanExpression,ConstantConditions
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {
+            Log.d(tag, message, cause);
+        }
+    }
+
+    public static void LOGV(final String tag, String message) {
+        //noinspection PointlessBooleanExpression,ConstantConditions
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
+            Log.v(tag, message);
+        }
+    }
+
+    public static void LOGV(final String tag, String message, Throwable cause) {
+        //noinspection PointlessBooleanExpression,ConstantConditions
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {
+            Log.v(tag, message, cause);
+        }
+    }
+
+    public static void LOGI(final String tag, String message) {
+        Log.i(tag, message);
+    }
+
+    public static void LOGI(final String tag, String message, Throwable cause) {
+        Log.i(tag, message, cause);
+    }
+
+    public static void LOGW(final String tag, String message) {
+        Log.w(tag, message);
+    }
+
+    public static void LOGW(final String tag, String message, Throwable cause) {
+        Log.w(tag, message, cause);
+    }
+
+    public static void LOGE(final String tag, String message) {
+        Log.e(tag, message);
+    }
+
+    public static void LOGE(final String tag, String message, Throwable cause) {
+        Log.e(tag, message, cause);
+    }
+
+    private LogUtils() {
+    }
+}</p>
+  </div>
+</div>
+
+<style type="text/css">
+.image_div {
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -130px;
+  background-image: url('codesnippet.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.title_text_div{
+  font-family: "Roboto",Roboto;
+margin-top: 270px;
+margin-left: -5%;
+font-size: 40px;
+color: white;
+}
+
+.content_text_div{
+  font-family: "Roboto",Roboto;
+margin-top: 10px;
+margin-left: -5%;
+font-size: 25px;
+color: white;
+}
+
+.code_text_div {
+   display:block;
+   font: 1em 'Courier New', Courier, Fixed, monospace;
+   font-size : 100%;
+   color: #000;
+   background : #fff url(http://www.estudiowas.com.ar/images/preback.jpg) no-repeat left top;
+   overflow : auto;
+   text-align:left;
+   border : 1px solid #5581C0;
+   padding : 0px 20px 0 30px;
+   margin:1em 0 1em 0;
+   line-height:17px;
+   font-weight:normal!important;
+}
+
+</style>
+
+</body>
+</html>
