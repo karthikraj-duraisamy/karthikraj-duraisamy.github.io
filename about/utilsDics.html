@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<link rel="shortcut icon" href="kartik_profile_pic.jpg">
+<title>utilsDics</title>
+
+</head>
+<body bgcolor = "#999933">
+<div class="image_div"></div>
+
+<div class="hero-unit">
+  <center><h1 class="title_text_div">Log statements made easy</h1></center>
+  <div class="content_text_div">
+  <!--Contents goes here -->    
+  <p>The below code is for LogUtils class, Which is a must having util file in every Android project.</p>
+
+   <div class="code_text_div">
+    <p>import android.util.Log;</br></br>
+
+    public class LogUtils {</br>
+    private static final String LOG_PREFIX = "iosched_";</br>
+    private static final int LOG_PREFIX_LENGTH = LOG_PREFIX.length();</br>
+    private static final int MAX_LOG_TAG_LENGTH = 23;</br></br>
+
+    public static String makeLogTag(String str) {</br>
+    &nbsp;&nbsp;&nbsp;    if (str.length() > MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH) {</br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        return LOG_PREFIX + str.substring(0, MAX_LOG_TAG_LENGTH - LOG_PREFIX_LENGTH - 1);</br>
+    &nbsp;&nbsp;&nbsp;        }</br></br>
+
+    &nbsp;&nbsp;&nbsp;    return LOG_PREFIX + str;</br>
+    }</br></br>
+
+    /**</br>
+     * Don't use this when obfuscating class names!</br>
+     */</br>
+    public static String makeLogTag(Class cls) {</br>
+        return makeLogTag(cls.getSimpleName());</br>
+    }</br></br>
+
+    public static void LOGD(final String tag, String message) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {</br>
+            Log.d(tag, message);</br>
+        }</br>
+    }</br></br>
+
+    public static void LOGD(final String tag, String message, Throwable cause) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG || Config.IS_DOGFOOD_BUILD || Log.isLoggable(tag, Log.DEBUG)) {</br>
+            Log.d(tag, message, cause);</br>
+        }</br>
+    }</br></br>
+
+    public static void LOGV(final String tag, String message) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {</br>
+            Log.v(tag, message);</br>
+        }</br>
+    }</br></br>
+
+    public static void LOGV(final String tag, String message, Throwable cause) {</br>
+        //noinspection PointlessBooleanExpression,ConstantConditions</br>
+        if (BuildConfig.DEBUG && Log.isLoggable(tag, Log.VERBOSE)) {</br>
+            Log.v(tag, message, cause);</br>
+        }</br>
+    }</br></br>
+
+    public static void LOGI(final String tag, String message) {</br>
+        Log.i(tag, message);</br>
+    }</br></br>
+
+    public static void LOGI(final String tag, String message, Throwable cause) {</br>
+        Log.i(tag, message, cause);</br>
+    }</br></br>
+
+    public static void LOGW(final String tag, String message) {</br>
+        Log.w(tag, message);</br>
+    }</br></br>
+
+    public static void LOGW(final String tag, String message, Throwable cause) {</br>
+        Log.w(tag, message, cause);</br>
+    }</br></br>
+
+    public static void LOGE(final String tag, String message) {</br>
+        Log.e(tag, message);</br>
+    }</br></br>
+
+    public static void LOGE(final String tag, String message, Throwable cause) {</br>
+        Log.e(tag, message, cause);</br>
+    }</br></br>
+
+    private LogUtils() {</br>
+    }</br></br></br></br>
+}</p>
+  </div>
+</div>
+
+<style type="text/css">
+.image_div {
+  top: 50px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -130px;
+  background-image: url('codesnippet.jpg');
+  background-size: cover;
+  display: block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 0em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.title_text_div{
+  font-family: "Roboto",Roboto;
+margin-top: 270px;
+margin-left: -5%;
+font-size: 40px;
+color: white;
+}
+
+.content_text_div{
+font-family: "Roboto",Roboto;
+margin-top: 10px;
+margin-left: 10%;
+font-size: 25px;
+color: white;
+}
+
+.code_text_div {
+   display:block;
+   font: 1em 'Courier New', Courier, Fixed, monospace;
+   font-size : 50%;
+   color: #000;
+   background : #fff url(http://www.estudiowas.com.ar/images/preback.jpg) no-repeat left top;
+   overflow : auto;
+   text-align:left;
+   border : 1px solid #5581C0;
+   padding : 0px 20px 0 30px;
+   margin:1em 0 1em 0;
+   line-height:17px;
+   font-weight:normal!important;
+}
+
+</style>
+
+</body>
+</html>

@@ -33,3 +33,5 @@ author_email: raj.karthik777@gmail.com
 
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://karthikraj.net/
+
+safe: true
