@@ -1,96 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+title: Home
+---
 
-<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<link rel="shortcut icon" href="kartik_profile_pic.jpg">
-<title>Karthikraj Duraisamy</title>
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-</head>
-<body bgcolor = "#20C05C">
-<div class="profile_kartik"></div>
-
-<div class="hero-unit">
-  <center><h1 class="name_kartik">Karthikraj Duraisamy</h1></center>
-  <div class="social_kartik">
-    <a href="mailto:raj.karthik777@gmail.com"><img src="email_icon.png"></a>
-    <a id="facebookButton" target="_blank" href="https://www.facebook.com/info.karthikraj"><img src="facebook_icon.png"></a>
-    <a target="_blank" href="https://www.linkedin.com/profile/view?id=121374857"><img src="linkedin_icon.png"></a>
-    <a target="_blank" href="https://twitter.com/twit2karthikraj"><img src="twitter_icon.png"></a>
+    {{ post.content }}
   </div>
-
-
-
-<center><p class="social_kartik_p"> First do it, then do it right, then do it better. This is what i keep following while coding or learning. 
-</br>
-</br>Nothing is innovated in the world as we had found everything available.
-</br>
-</br>
-While learning new things it is important to have a deep study, but much important is to get out there and *do*.
-</br>
-</br>
-</p></center>
-
+  {% endfor %}
 </div>
 
-<style type="text/css">
-.profile_kartik {
-  top: 50px;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 50%;
-  margin-left: -130px;
-  background-image: url('kartik_profile_pic.jpg');
-  background-size: cover;
-  display: block;
-  border-radius: 100px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 99em;
-  border: 5px solid #eee;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
-}
-
-.name_kartik{
-  font-family: "Roboto",Roboto;
-margin-top: 270px;
-margin-left: -5%;
-font-size: 40px;
-color: white;
-}
-
-.p_kartik{
-  font-family: "Roboto",Roboto;
-margin-top: 10px;
-margin-left: -5%;
-font-size: 25px;
-color: white;
-}
-
-.social_kartik{
-  font-family: "Roboto",Roboto;
-margin-top: 10px;
-margin-left: 40%;
-font-size: 25px;
-color: white;
-}
-
-.social_kartik_p{
-  font-family: "Roboto",Roboto;
-margin-top: 10px;
-margin-left: 5%;
-font-size: 25px;
-color: white;
-}
-
-</style>
-
-</body>
-</html>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
