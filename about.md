@@ -24,6 +24,34 @@ title: About
 
 
 
-I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
+I am an android application developer and designer. 
+
+What I beliefs,
+
+> First do it, then do it right, then do it better is what i follows while taking up new roles.
+> Nothing is innovated in the world as we had found everything available.
+> While learning new things it is important to have a deep study, but much important is to get out there and *do*.
+
+
+# SKILLS
+
+      Through out my career, I have done various things related to mobile applications and web design. As a starting point, I developed a proffessional website for my college and that attitude continued in my career too as I do not want to say no to anyone who approaches for what I am capable of. 
+      
+      Later on I started getting dirty myself with Android as an Intern. Android Intern - Andriod applications developer - Senior Software Engineer - Lead developer - Mobile website designer - iOS application developer - Windows Phone application developer - Windows Mobile CE application developer - Backend Java application developer.
+      
+      Whole of this journey has included the following skills added to my plate.
+      
+      
+| SKILLS | Expertise level                    |
+| ------------- | ------------------------------ |
+| ANDROID/JAVA      | * * * * * |
+| IOS SDK   | * * *      |
+| OBJECTIVE C      | * * *  |
+| SWIFT   | * * *      |
+| C#/.NET      | * * *  |
+| C++   | * * *      |
+| IONIC FRAMEWORK      | * * *  |
+| ANGULAR    | * * *      |
+| HTML/CSS      | * * * *  |
 
 
