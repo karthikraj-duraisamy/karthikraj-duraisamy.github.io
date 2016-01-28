@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-<div class="profile_kartik"></div>
+<!--<div class="profile_kartik"></div>
 
 <style type="text/css">
 .profile_kartik {
@@ -20,10 +20,10 @@ title: About
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
-</style>
+</style>-->
 
-<div>
+
 
 I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
 
-</div>
+
