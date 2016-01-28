@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-<div class="profile_kartik">I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.</div>
+<div class="profile_kartik"></div>
 
 <style type="text/css">
 .profile_kartik {
@@ -22,4 +22,8 @@ title: About
 }
 </style>
 
+<div>
 
+I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
+
+</div>
