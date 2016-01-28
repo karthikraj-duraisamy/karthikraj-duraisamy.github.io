@@ -93,4 +93,15 @@ What I beliefs,
   </tbody>
 </table>
 
+#  PORTFOLIO
 
+> The apps and projects listed below are inludes my employers/clients property. As so the copyright and ownership belongs to them.
+
+
+# RESUME
+
+Impressed/Interseted with any of my work ?
+
+Would you like to see more of my resume ?
+
+<a href='http://www.freepik.com/free-vector/cute-web-buttons-of-different-design_832337.htm'>Designed by Freepik</a>
