@@ -42,18 +42,55 @@ What I beliefs,
   Later on I started getting dirty myself with Android as an Intern. Android Intern - Andriod applications developer - Senior Software Engineer - Lead developer - Mobile website designer - iOS application developer - Windows Phone application developer - Windows Mobile CE application developer - Backend Java application developer.
       
   Whole of this journey has included the following skills added to my plate.
-      
-      
-| SKILLS           | Expertise level                |
-| -------------    | ------------------------------ |
-| ANDROID/JAVA     | * * * * *                      |
-| IOS SDK          | * * *                          |
-| OBJECTIVE C      | * * *                          |
-| SWIFT            | * * *                          |
-| C#/.NET          | * *                            |
-| C++              | * * *                          |
-| IONIC FRAMEWORK  | * * *                          |
-| ANGULAR          | * *                            |
-| HTML/CSS         | * * * *                        |
+
+### Tables
+
+
+<table>
+  <thead>
+    <tr>
+      <th>SKILLS</th>
+      <th>Expertise level </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ANDROID/JAVA</td>
+      <td>* * * * * </td>
+    </tr>
+    <tr>
+      <td>IOS SDK</td>
+      <td>* * * *</td>
+    </tr>
+    <tr>
+      <td>OBJECTIVE C</td>
+      <td>* * * </td>
+    </tr>
+        <tr>
+      <td>SWIFT</td>
+      <td>* * * </td>
+    </tr>
+    <tr>
+      <td>C#/.NET</td>
+      <td>* * *</td>
+    </tr>
+    <tr>
+      <td>C++</td>
+      <td>* * </td>
+    </tr>
+    <tr>
+      <td>IONIC FRAMEWORK</td>
+      <td>* * *</td>
+    </tr>
+    <tr>
+      <td>ANGULAR</td>
+      <td>* *</td>
+    </tr>
+    <tr>
+      <td>HTML/CSS</td>
+      <td>* * * * </td>
+    </tr>
+  </tbody>
+</table>
 
 
