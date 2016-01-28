@@ -6,7 +6,7 @@ title: About
 
 I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
 
-![Alt text](/about/kartik_profile_pic.jpg)
+
 <div class="profile_kartik"></div>
 
 <style type="text/css">
