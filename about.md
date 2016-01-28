@@ -44,16 +44,16 @@ What I beliefs,
   Whole of this journey has included the following skills added to my plate.
       
       
-| SKILLS | Expertise level                    |
-| ------------- | ------------------------------ |
-| ANDROID/JAVA      | * * * * * |
-| IOS SDK   | * * *      |
-| OBJECTIVE C      | * * *  |
-| SWIFT   | * * *      |
-| C#/.NET      | * * *  |
-| C++   | * * *      |
-| IONIC FRAMEWORK      | * * *  |
-| ANGULAR    | * * *      |
-| HTML/CSS      | * * * *  |
+| SKILLS           | Expertise level                |
+| -------------    | ------------------------------ |
+| ANDROID/JAVA     | * * * * *                      |
+| IOS SDK          | * * *                          |
+| OBJECTIVE C      | * * *                          |
+| SWIFT            | * * *                          |
+| C#/.NET          | * *                            |
+| C++              | * * *                          |
+| IONIC FRAMEWORK  | * * *                          |
+| ANGULAR          | * *                            |
+| HTML/CSS         | * * * *                        |
 
 
