@@ -104,4 +104,4 @@ Impressed/Interseted with any of my work ?
 
 Would you like to see more of my resume ?
 
-<a href='http://www.freepik.com/free-vector/cute-web-buttons-of-different-design_832337.htm'>Designed by Freepik</a>
+                          <strong>DOWNLOAD</strong>
