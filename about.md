@@ -15,8 +15,6 @@ I am an android application designer and developer. I also develops iOS and Wind
   width: 200px;
   height: 200px;
   position: absolute;
-  left: 50%;
-  margin-left: -130px;
   background-image: url('/about/kartik_profile_pic.jpg');
   background-size: cover;
   display: block;
