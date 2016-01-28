@@ -2,11 +2,6 @@
 layout: page
 title: About
 ---
-
-
-I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
-
-
 <div class="profile_kartik"></div>
 
 <style type="text/css">
@@ -26,3 +21,5 @@ I am an android application designer and developer. I also develops iOS and Wind
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
 }
 </style>
+
+I am an android application designer and developer. I also develops iOS and Windows Phone applications as a part of assignment.
