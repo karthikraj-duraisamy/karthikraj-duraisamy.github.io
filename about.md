@@ -6,7 +6,7 @@ title: About
 <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.2.18.min.js"></script>
 <script type="text/javascript" src="script.js"></script>
-
+![Alt text](/about/kartik_profile_pic.jpg)
 <link rel="shortcut icon" href="/about/kartik_profile_pic.jpg">
 <title>Karthikraj Duraisamy</title>
 
