@@ -102,6 +102,4 @@ What I beliefs,
 
 Impressed/Interseted with any of my work ?
 
-Would you like to see more of my resume ?
-
-                          <strong>DOWNLOAD</strong>
+Would you like to see more of my resume ? <strong>DOWNLOAD</strong>
