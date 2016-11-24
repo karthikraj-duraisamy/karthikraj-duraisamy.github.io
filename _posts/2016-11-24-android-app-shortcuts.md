@@ -3,25 +3,25 @@ layout: post
 title: App Shortcuts
 ---
 
-An effort reducing effort in Android OS for it’s users.
+An effort reducing effort in Android OS for the users.
 
 Android 7.1 release includes many interesting updates. App Shortcuts is one of them.
 
 
-<strong>What is App Shortcuts:</strong> App Shortcuts is a list which will be shown on top of the launcher icon while it is long pressed. App Shortcuts allows user to land a page directly in the app by long pressing and selecting through launcher icon. The only option we had to launch the MAIN activity by clicking on app icon is become more luxury to hold 5 more options to decide.In simple, it is an App launcher icon’s instant menubar.
+<strong>What is App Shortcuts:</strong> App Shortcuts is a list which will be shown on top of the launcher icon while it is long pressed. App Shortcuts allows the user to land a page directly in the app by long pressing and selecting through launcher icon. The only option we had to launch the MAIN activity by clicking on app icon has become more luxury to hold 5 more options to decide.In simple, it is an App launcher icon’s instant menubar.
 
-It basically reduces the effort taken by the user to visit particular page. Also user can long press to drag a shortcut to pin it the home screen. Which is called pinned shortcuts and user can add and remove it. The app can disable the pinned shortcuts but cannot add or remove programmatically.
+It basically reduces the effort taken by the user to visit a particular page. Also, the user can long press to drag a shortcut to pin it the home screen. Which is called pinned shortcuts and user can add and remove. The app can disable the pinned shortcuts but cannot add or remove programmatically.
 
 Below image will be obvious to understand how it works.
 <p align="center">
 <img src="/assets/shortcuts/app_shortcuts_example.png" alt="Appshortcuts screenshot" style="width: 250px; display: block;" />
 </p>
 
-These shortcuts can be added statically through an xml file or dynamically by adding some piece of code inside the app.
+These shortcuts can be added statically through an XML file or dynamically by adding some piece of code inside the app.
 
 <strong>Limitation:</strong> Maximum of 5 shortcuts can be accommodated per icon. Including both static and dynamic shortcuts.
 
-I am going to share my experience on implementing App Shortcuts. Code for demo app is available in [Github](https://github.com/karthikraj-duraisamy/AppShortcutsDemo).
+I am going to share my experience on implementing App Shortcuts. Code for demo app is available on [Github](https://github.com/karthikraj-duraisamy/AppShortcutsDemo).
 
 
 + <strong>How to implement Manifest shortcuts which is also referred as Static Shortcuts</strong>
@@ -29,11 +29,11 @@ I am going to share my experience on implementing App Shortcuts. Code for demo a
 
 # <strong>Manifest shortcuts:</strong>
 
-Basically the app which will not contain any action items that might be changed based on user interaction, can go for it. <strong>Static shortcuts</strong> are defined in the xml file. For these shortcuts, we cannot change title, desc and images at run-time. 
+Basically, the app which will not contain any action items that might be changed based on user interaction can go for it. <strong>Static shortcuts</strong> are defined in the XML file. For these shortcuts, we cannot change the title, desc and images at run-time. 
 
 >So, only way to update them is to have a new build.
 
-We need to add the below xml file in *'res/xml/shortcuts.xml'*
+We need to add the below XML file in *'res/xml/shortcuts.xml'*
 
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
@@ -52,10 +52,10 @@ We need to add the below xml file in *'res/xml/shortcuts.xml'*
 </shortcuts>
 {% endhighlight xml %}
 
-The above xml file contains the new root element called *shortcuts*, 
+The above XML file contains the new root element called *shortcuts*, 
 which will hold the list of shortcuts.
 
-In the above xml file, notable items are
+In the above XML file, notable items are
 
 + <strong>android:shortcutId</strong> - An id to refer the shortcut.
 + <strong>android:shortcutShortLabel</strong> - Mandatory and 10 char recommended.
@@ -63,7 +63,7 @@ In the above xml file, notable items are
 + <strong>android:shortcutDisabledMessage</strong> - Message to be shown while the shortcut is disabled.
 
 
-We needs an entry in Manifest file. Here below the changes related to App Shortcuts In Androidmanifest file.
+We need an entry in Manifest file. Here below the changes related to App Shortcuts In Android manifest file.
 
 {% highlight xml %}
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -81,11 +81,11 @@ We needs an entry in Manifest file. Here below the changes related to App Shortc
 </manifest>
 {% endhighlight xml %}
 
-The *'meta-data'* mentioned in the Androidmanifest file needs to be placed into the Launcher activity tag. That’s it. Now we can see the App Shortcuts for the app icon. See the result below,
+The *'meta-data'* mentioned in the Android manifest file needs to be placed into the Launcher activity tag. That’s it. Now we can see the App Shortcuts for the app icon. See the result below,
 
 ![Appshortcuts demo](/assets/shortcuts/manifest_shortcuts_simple.png)
 
-In case, we wants to have some Activity to be listed in back stack and when user clicks on back button we may need to take them to <strong>Dashboard</strong> or <strong>Main screen</strong>, then we can have a stack of *'Activities'* in the *'shortcuts xml'* like the below code.
+In case, we want to have some Activity to be listed in the back stack and when the user clicks on the back button we may need to take them to <strong>Dashboard</strong> or <strong>Main screen</strong>, then we can have a stack of *'Activities'* in the *'shortcuts xml'* like the below code.
 
 {% highlight xml %}
 <?xml version="1.0" encoding="utf-8"?>
@@ -137,12 +137,12 @@ In case, we wants to have some Activity to be listed in back stack and when user
 {% endhighlight xml %}
 
 
-In the above *'xml'* code we have list if *'intents'* added for a *'shortcut'*. The last intent will be considered as the Activity to launch when the shortcut is clicked. Above intents will be added to back stack, So that user will see the back stacked activities while they press back button. See the result below,
+In the above *'xml'* code we have a list if *'intents'* added for *'shortcut'*. The last intent will be considered as the Activity to launch when the shortcut is clicked. Above intents will be added to back stack, So that user will see the back stacked activities while they press the back button. See the result below,
 
 ![Appshortcuts demo](/assets/shortcuts/manifest_shortcuts_backstack.png)
 
 
-<strong>Note:</strong> While a shortcut is removed in an updated version and the same is pinned in users screen, system will disable them automatically.
+<strong>Note:</strong> While a shortcut is removed in an updated version and the same is pinned in users screen, the system will disable them automatically.
 
 # <strong>Dynamic shortcuts:</strong>
 
@@ -202,12 +202,12 @@ As the name suggests <strong>removeAllDynamicShortcuts(List)</strong> will remov
 In case the shortcut is been pinned in the Home Screen while we call <strong>removeAllDynamicShortcuts(List)</strong>, then pinned shortcuts will be disabled.
 
 ### To Disable and Enable the shortcuts?
-<strong>disableShortcuts(List)</strong> will simply disable the mentioned shortcut. <strong>disableShortcuts(List, CharSequence)</strong> will disable and attach an error message to the shortcut which will be displayed as a warning message to user while pressing it.
+<strong>disableShortcuts(List)</strong> will simply disable the mentioned shortcut. <strong>disableShortcuts(List, CharSequence)</strong> will disable and attach an error message to the shortcut which will be displayed as a warning message to the user while pressing it.
 <strong>enableShortcuts(List)</strong> method will enable mentioned shortcuts.
 
 ### Extras:
 
-+ When we add or update the shortcuts in background, we have a limitation to do so. For limitation, the counts will be monitored by the system. So continuous update from background can be denied once the limit reaches. We can always check the limit by using <strong>isRateLimitingActive()</strong>. *This limit will get reset once the app comes to foreground.*
++ When we add or update the shortcuts in the background, we have a limitation to do so. For limitation, the counts will be monitored by the system. So continuous update from the background can be denied once the limit reaches. We can always check the limit by using <strong>isRateLimitingActive()</strong>. *This limit will get reset once the app comes to the foreground.*
 + We can always get the list of pinned shortcuts by using <strong>getPinnedShortcuts()</strong>.
 + We can always get the list of manifest and dynamic shortcuts using <strong>getManifestShortcuts()</strong> and <strong>getDynamicShortcuts()</strong> respectively.
 
