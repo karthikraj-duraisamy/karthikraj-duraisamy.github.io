@@ -191,7 +191,7 @@ shortcutManager.addDynamicShortcuts(Arrays.asList(postShortcut));
 The result in below images,
 ![Appshortcuts demo](/assets/shortcuts/dynamic_shortcuts_completed.png)
 
-Remember, <strong>addDynamicShortcuts(List)</strong> method will always add on top of the existing shortcuts for the app and <strong>setDynamicShortcuts(List)</strong> method will always redefine the entire list.
+> Remember, <strong>addDynamicShortcuts(List)</strong> method will always add on top of the existing shortcuts for the app and <strong>setDynamicShortcuts(List)</strong> method will always redefine the entire list.
 
 
 ### What if we want to update the existing shortcut?
