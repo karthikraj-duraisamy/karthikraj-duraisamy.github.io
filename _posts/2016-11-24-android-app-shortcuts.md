@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: App Shortcuts
 ---
 
@@ -212,4 +213,36 @@ In case the shortcut is been pinned in the Home Screen while we call <strong>rem
 + We can always get the list of manifest and dynamic shortcuts using <strong>getManifestShortcuts()</strong> and <strong>getDynamicShortcuts()</strong> respectively.
 
 
+
+
+
+
+
+<script id="dsq-count-scr" src="//karthikraj-net.disqus.com/count.js" async></script>
+
+
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'http://karthikraj.net/2016/11/24/android-app-shortcuts/';
+this.page.identifier = '20161124SHORTCUTS'; 
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//karthikraj-net.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+{% endif %}
 
