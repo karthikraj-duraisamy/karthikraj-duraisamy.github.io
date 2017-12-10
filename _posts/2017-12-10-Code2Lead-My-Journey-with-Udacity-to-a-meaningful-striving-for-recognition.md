@@ -32,7 +32,7 @@ Back in 2013, I came across Udacity courses for Android in one of my favorite An
 
 <strong>Free materials to Code2Lead:</strong>
 
-The materials that Udacity allows us to access looked very much enough to develop skills. But at times it looked like peer programming mattered for me to get more confident in what I am good at >(That’s because most of the early stage in my career, I worked as an Individual contributor).
+The materials that Udacity allows us to access looked very much enough to develop skills. But at times it looked like peer programming mattered for me to get more confident in what I am good at (That’s because most of the early stage in my career, I worked as an Individual contributor).
 
 
 I was looking for a right time to get enrolled and get peer reviews for the projects involved in Nanodegree Program. That will help me to get some more insights on my coding standards.
@@ -71,7 +71,7 @@ So that is the recognition that I strive to get from this Code2Lead program.
 <strong>Eligibility of hackathon participation:</strong> The hackathon shortlist results were announced in November 1st week. The Invitation to participate in the hackathon made me feel the fruitiness of the course completion hard work.
 
 
->Forgot to mention, Yes I got certified. Android Developer Nanodegree certificate.
+Forgot to mention, Yes I got certified. Android Developer Nanodegree certificate.
 
 
 So the date of Nov 18th is the hackathon day. The same time, Nov 17th Udacity conducted Udacity Propel (a hiring event). As both Hackathon and propel happened in Bangalore, I had the chance to attend both. But for me, from the second week of November was a Hackathon preparation week. As I was keen on staying till the end of Code2Lead as Winning participant, I did not attend the propel on 17th and kept my hackathon preparations going on.
