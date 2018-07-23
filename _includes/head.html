@@ -16,16 +16,10 @@
 <link rel="icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
 <link rel="apple-touch-icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
 <script>
-  if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('http://www.karthikraj.net/assets/sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
+  /** An empty service worker! */
+self.addEventListener('fetch', function(event) {
+  /** An empty fetch handler! */
+});
 }
   self.addEventListener('install', function(event) {
   // Perform install steps
