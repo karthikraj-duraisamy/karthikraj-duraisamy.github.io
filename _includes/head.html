@@ -16,13 +16,8 @@
 <link rel="icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
 <link rel="apple-touch-icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
 <script>
-  /** An empty service worker! */
-self.addEventListener('fetch', function(event) {
-  /** An empty fetch handler! */
-});
-}
-  self.addEventListener('install', function(event) {
-  // Perform install steps
+navigator.serviceWorker && navigator.serviceWorker.register('http://www.karthikraj.net/assets/sw.js').then(function(registration) {
+  console.log('Excellent, registered with scope: ', registration.scope);
 });
   </script>
   
