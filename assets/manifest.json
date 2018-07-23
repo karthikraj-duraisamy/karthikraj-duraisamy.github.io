@@ -1,0 +1,21 @@
+{
+  "name": "Karthikraj Website",
+  "short_name": "Karthikraj",
+  "description": "My own blog space",
+  "lang": "en-GB",
+  "start_url": "www.karthikraj.net",
+  "display": "standalone",
+  "theme_color": "#3ECFCA ",
+  "icons": [
+    {
+      "src": "http://karthikraj.net/assets/karthik_profile_round.png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "Android",
+      "id": "so.trackruler.apps.lordmuruga.wallpaper",
+      "url": "https://play.google.com/store/apps/details?id=so.trackruler.apps.lordmuruga.wallpaper"
+    }
+  ]
+}
