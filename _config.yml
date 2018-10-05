@@ -37,3 +37,5 @@ author_email: raj.karthik777@gmail.com
 url: http://karthikraj.net/
 
 safe: true
+
+theme: jekyll-theme-cayman
