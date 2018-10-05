@@ -22,8 +22,6 @@ paginate_path: "page:num"
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/karthikraj-duraisamy/hagura
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: Karthik's Development blog
@@ -35,6 +33,3 @@ author_email: raj.karthik777@gmail.com
 url: http://karthikraj.net/
 
 safe: true
-
-sass:
- style: compressed
