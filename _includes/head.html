@@ -15,21 +15,7 @@
 
 <link rel="icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
 <link rel="apple-touch-icon" href="http://www.karthikraj.net/assets/karthik_profile_round.png">
-<script>
 
-  //This is the "Offline page" service worker
-
-//Add this below content to your HTML page, or add the js file to your page at the very top to register service worker
-if (navigator.serviceWorker.controller) {
-  console.log('[PWA Builder] active service worker found, no need to register')
-} else {
-  //Register the ServiceWorker
-  navigator.serviceWorker.register('http://www.karthikraj.net/assets/sw.js', {
-    scope: './'
-  });
-}
-
-  </script>
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
