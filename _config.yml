@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Karthikraj Duraisamy
 tagline:          'Into Mobile Apps Development'
 description:      'Android-Java-iOS'
-url:              http://hyde.getpoole.com
+url:              https://github.com/karthikraj-duraisamy/hagura
 baseurl:          /
 
 author:
@@ -24,7 +24,7 @@ paginate_path: "page:num"
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/karthikraj-duraisamy/hagura
 
 # Name of your blog (this will show up at the top of your page and in the RSS feed)
 name: Karthik's Development blog
