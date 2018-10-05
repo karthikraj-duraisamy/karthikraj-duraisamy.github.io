@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+remote_theme: karthikraj-duraisamy/hagura
 
 # Permalinks
 permalink:        pretty
