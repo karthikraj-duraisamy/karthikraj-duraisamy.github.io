@@ -8,7 +8,7 @@ title: Mastering your Android Development Skills with Google | Best tutorials, b
 <strong>Mastering your Android Development Skills with Google | Best tutorials, blogs, courses and guides to learn & Master Android</strong>
 
 
-![Decided to show up](/assets/mastering-android/android-basket-ball.gif) Mastering your Android Development Skills
+![Android master](/assets/mastering-android/android-basket-ball.gif) Mastering your Android Development Skills
 
 
 Learning to develop Android applications is fun and challenging at the same time. With the help of online learning, we can make it look like a cake walk. Especially when Google is committed to helping out the developers community. Below is the list of ways that Google and Google engineers are helping out Android developers to Mastering Android development.
@@ -19,6 +19,7 @@ Sometimes I felt the contents repeat in multiple places like vlogs and blogs. I 
 1. YouTube Videos
 
 Google developers youtube channel and Android developers youtube channel are the really good source to get the latest announcements and technical insights from Google. Especially in the Android developers playlist, there are many insightful playlists for different categories like Android studio tooling, Android support library, Android developer success stories, Android development patterns, Android performance patterns, Design Bytes and more. I found most of these videos are very much insightful and makes the developers job easy while developing Android applications.
+
 
 2. Git Books
 
@@ -90,22 +91,19 @@ To prepare yourself towards AAD, Google suggests utilizing some of the mentioned
 
 <strong>Special Mention for Women Techies:</strong>
 
-If you are women involved in technology with any of the Google products, you have got one more special community to join and explore more. That is WTM - ![Women Tech Makers] (https://www.womentechmakers.com/). WTM itself has more and more special groups, scholarship programs and events to collaborate and grow.
+If you are women involved in technology with any of the Google products, you have got one more special community to join and explore more. That is WTM - ![Women Tech Makers](https://www.womentechmakers.com/). WTM itself has more and more special groups, scholarship programs and events to collaborate and grow.
 Above mentioned sources are adapted by me throughout my career of learning and updating my Android skills. Every time I need information on Android, I end up finding a solution in one of the above-mentioned sources. Sometimes I wondered how many places that Google makes the Android developer's materials available. Finally, I decided to list them out and spread it to the community. As a result, I made this blog post.
-Please comment any other sources that I missed mentioning here.
 
 
 
+
+<strong>Please comment any other sources that I missed mentioning here.</strong>
 
 
 <script id="dsq-count-scr" src="//karthikraj-net.disqus.com/count.js" async></script>
-
-
-
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
-
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
@@ -114,7 +112,6 @@ var disqus_config = function () {
 this.page.url = 'http://karthikraj.net/2017/12/13/mastering-your-android-development-skills-with-google/';
 this.page.identifier = '20171213MASTERINGANDROID’; 
 };
-
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = '//karthikraj-net.disqus.com/embed.js';
@@ -123,5 +120,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
 {% endif %}
