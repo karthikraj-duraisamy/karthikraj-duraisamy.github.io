@@ -91,7 +91,7 @@ To prepare yourself towards AAD, Google suggests utilizing some of the mentioned
 
 <strong>Special Mention for Women Techies:</strong>
 
-If you are women involved in technology with any of the Google products, you have got one more special community to join and explore more. That is WTM - ![Women Tech Makers](https://www.womentechmakers.com/). WTM itself has more and more special groups, scholarship programs and events to collaborate and grow.
+If you are women involved in technology with any of the Google products, you have got one more special community to join and explore more. That is WTM - [Women Tech Makers](https://www.womentechmakers.com/). WTM itself has more and more special groups, scholarship programs and events to collaborate and grow.
 Above mentioned sources are adapted by me throughout my career of learning and updating my Android skills. Every time I need information on Android, I end up finding a solution in one of the above-mentioned sources. Sometimes I wondered how many places that Google makes the Android developer's materials available. Finally, I decided to list them out and spread it to the community. As a result, I made this blog post.
 
 
