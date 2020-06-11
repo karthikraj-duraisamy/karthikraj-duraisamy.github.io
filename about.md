@@ -6,7 +6,7 @@ title: About
 
 Hello, I'm <strong>Karthikraj Duraisamy</strong>.
 
-Currently I'm building OYKU!(https://oykuapp.com). Previously, I've worked at Cashkumar, Abaqus Inc, Fluentsoft, Mindtree.
+Currently I'm building [OYKU](https://oykuapp.com). Previously, I've worked at Cashkumar, Abaqus Inc, Fluentsoft, Mindtree.
 I love experimenting with multiple tech stack & building tech products!
 
 My interests range from programming to entrepreneurship. If you have questions or need help with anything that you think I can help you with, feel free to contact me.
