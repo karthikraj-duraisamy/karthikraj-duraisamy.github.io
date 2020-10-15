@@ -47,3 +47,19 @@ Motivation is the key to be consistent. Here are some quotes that I like and lov
 > In the knowledge hunt process - I love looking for improvement always and never allowed to settle myself with what I have at present.
 
 > I love teaching others about what I learned - because I am more responsible while I am suggesting anything to someone else.
+
+> A person who is quietly confident makes the best leader - Fred Wilson, Union Square Ventures
+
+> The way to get started is to quit talking and start doing - Walt disney, Disney
+
+> In the end, a vision without the ability to execute is probably a hallucination - Steve Case, AOL
+
+> The fastest way to change yourself is to hang out with people who are already the way you want to be - Reid Hoffman, LinkedIn
+
+> It's hard to do a really good job on anything you don't think about in the shower - Paul Graham
+
+> You are the product of your thoughts. Whatever you think that you will be. To succeed, you must have tremendous perseverance, tremendous will - Swami Vivekananda
+
+> Known is a drop, unknow is an ocean - Avvaiyar
+
+> Wisdom is a weapon to ward off destruction; it is an inner fortress which enemies cannot destroy - Thiruvalluvar
