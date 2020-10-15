@@ -31,7 +31,7 @@ I have deep experience in building custom hybrid apps as well. I have built mult
 
 As I mentioned, I have built most of the apps as an individual contributor, that experience helped me to develop and bring out my interest in complete product development & management lifecycle, which helped me to take care of the product development in the companies that I am involved. I love playing the role of CPTO because it helps product development to be more agile and gives a quick turnaround.
 
-After I started building products as an entrepreneur, We developed multiple Alexa Skills with a scale of 5 to 7 million interactions per month during the peek & one of the skill has around 400k users. Two of those skills were very popular (One is the high performing skill in India & another is popular in the bedtime stories category globally) and which helped us to be awarded as 'Alexa Star developer of the year 2019', 'Alexa Pioneers' & Won an international hackathon as well for a category.
+After I started building products as an entrepreneur, We developed multiple Alexa Skills with a scale of 5 to 7 million interactions per month during the peek & one of the skill has around 400k users. Two of those skills were very popular (One is the high performing skill in India & another is popular in the bedtime stories category globally) and which helped us to be awarded as 'Alexa Star developer of the year 2019', 'Alexa Pioneers' & Won an International Hackathon as well for a category.
 
 
 Motivation is the key to be consistent. Here are some quotes that I like and love to share.
