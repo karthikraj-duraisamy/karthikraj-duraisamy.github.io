@@ -4,7 +4,7 @@
   "description": "My own blog space",
   "lang": "en-GB",
   "start_url": "/",
-  "display": "minimal-ui",
+  "display": "standalone",
   "background_color": "#111111",
   "theme_color": "#CB3315",
   "icons": [
