@@ -2,8 +2,5 @@
 layout: page
 title: Resume
 ---
-
-<embed src="https://github.com/karthikraj-duraisamy/karthikraj-duraisamy.github.io/blob/master/assets/Karthikraj_Duraisamy_Resume.pdf" width="500" height="375" 
- type="application/pdf">
-
+<iframe src="http://docs.google.com/gview?url=https://github.com/karthikraj-duraisamy/karthikraj-duraisamy.github.io/blob/master/assets/Karthikraj_Duraisamy_Resume.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 ---
